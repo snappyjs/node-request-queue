@@ -1,0 +1,27 @@
+{
+  "name": "node-request-queue",
+  "version": "1.0.0",
+  "description": "A utility to queue up a number requests to be executed in parallel batches with possible waitTime between them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js",
+    "sample": "node sample/sample.js"
+  },
+  "keywords": [
+    "request",
+    "queue",
+    "request queue",
+    "request-promise"
+  ],
+  "author": "Tommy Dronkers",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4",
+    "nock": "^9.2.3"
+  }
+}
