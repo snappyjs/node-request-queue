@@ -15,6 +15,17 @@
   ],
   "author": "Tommy Dronkers",
   "license": "MIT",
+  "homepage": "https://snappyjs.com",
+  "author": "Tommy Dronkers <tommy@snappyjs.com> (https://www.snappyjs.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snappyjs/node-request-queue/issues",
+    "email": "tommy@snappyjs.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snappyjs/node-request-queue.git"
+  },
   "dependencies": {
     "request": "^2.85.0",
     "request-promise": "^4.2.2"
