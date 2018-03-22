@@ -1,39 +1,31 @@
 {
-  "name": "node-request-queue",
-  "version": "1.0.0",
-  "description": "A utility to queue up a number requests to be executed in parallel batches with possible waitTime between them. Well suited for webscraping.",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha test/*.js",
-    "sample": "node sample/sample.js"
-  },
-  "keywords": [
-    "request",
-    "queue",
-    "request-promise",
-    "webscraping",
-    "scraping"
-  ],
-  "author": "Tommy Dronkers",
-  "license": "MIT",
-  "homepage": "https://snappyjs.com",
-  "author": "Tommy Dronkers <tommy@snappyjs.com> (https://www.snappyjs.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/snappyjs/node-request-queue/issues",
-    "email": "tommy@snappyjs.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/snappyjs/node-request-queue.git"
-  },
-  "dependencies": {
-    "request": "^2.85.0",
-    "request-promise": "^4.2.2"
-  },
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.0.4",
-    "nock": "^9.2.3"
-  }
+	"name": "node-request-queue",
+	"version": "1.0.2",
+	"description": "A utility to queue up a number requests to be executed in parallel batches with possible waitTime between them. Well suited for webscraping.",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha test/*.js",
+		"sample": "node sample/sample.js"
+	},
+	"keywords": ["request", "queue", "request-promise", "webscraping", "scraping"],
+	"author": "Tommy Dronkers <tommy@snappyjs.com> (www.snappyjs.com)",
+	"license": "MIT",
+	"homepage": "snappyjs.com",
+	"bugs": {
+		"url": "https://github.com/snappyjs/node-request-queue/issues",
+		"email": "tommy@snappyjs.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/snappyjs/node-request-queue.git"
+	},
+	"dependencies": {
+		"request": "^2.85.0",
+		"request-promise": "^4.2.2"
+	},
+	"devDependencies": {
+		"chai": "^4.1.2",
+		"mocha": "^5.0.4",
+		"nock": "^9.2.3"
+	}
 }
