@@ -27,7 +27,7 @@ const EVENTS = {
 class RequestQueue extends EventEmitter {
 
   /**
-   * Create a new RequestQueue with a fixed number of parallel _requests
+   * Create a new RequestQueue with a fixed number of parallel requests
    * and waitTime between each request.
    * @param {Number} [parallel=1] Number of parallel requests to be run at once.
    * @param {Number} [waitTime=0] Time in ms before staring a new request when one is completed.

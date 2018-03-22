@@ -1,7 +1,7 @@
 {
   "name": "node-request-queue",
   "version": "1.0.0",
-  "description": "A utility to queue up a number requests to be executed in parallel batches with possible waitTime between them.",
+  "description": "A utility to queue up a number requests to be executed in parallel batches with possible waitTime between them. Well suited for webscraping.",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/*.js",
@@ -10,8 +10,9 @@
   "keywords": [
     "request",
     "queue",
-    "request queue",
-    "request-promise"
+    "request-promise",
+    "webscraping",
+    "scraping"
   ],
   "author": "Tommy Dronkers",
   "license": "MIT",
