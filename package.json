@@ -7,7 +7,13 @@
 		"test": "mocha test/*.js",
 		"sample": "node sample/sample.js"
 	},
-	"keywords": ["request", "queue", "request-promise", "webscraping", "scraping"],
+	"keywords": [
+		"request",
+		"queue",
+		"request-promise",
+		"webscraping",
+		"scraping"
+	],
 	"author": "Tommy Dronkers <tommy@snappyjs.com> (www.snappyjs.com)",
 	"license": "MIT",
 	"homepage": "snappyjs.com",
@@ -24,8 +30,8 @@
 		"request-promise": "^4.2.2"
 	},
 	"devDependencies": {
-		"chai": "^4.1.2",
-		"mocha": "^5.0.4",
-		"nock": "^9.2.3"
+		"chai": "^4.2.0",
+		"mocha": "^8.2.1",
+		"nock": "^13.0.4"
 	}
 }
